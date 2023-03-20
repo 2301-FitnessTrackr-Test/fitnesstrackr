@@ -18,3 +18,6 @@
         - Note: You should only do this step when you have ALL group members present and able to look over your code that you are getting ready to merge. 
             - If the code looks fine, then you can click "Merge Pull Request" and click through to approve it. 
             - If the code is NOT ready, then the dev who is trying to merge will go back and fix their code. The pull request will be denied. 
+- Step 4: Once the merge request has been finalized and the default/main/master branch has been updated with that dev's code, that dev who made the merge request will go to their local repo and `git pull origin main` to update their local main branch with the finalized code. 
+    - Note: All other group members, once the merge request has been finalized, should ALSO go to their local main/master/default branch and `git pull origin main` to update their codebase. 
+    - NOTE!!!!!!!!!!!!!!!!!!!! ALWAYS CHECK WHEN YOU ARE DOING THIS STEP THAT YOU ARE IN FACT ON YOUR LOCAL MAIN BRANCH AND NOT ON YOUR PERSONAL BRANCH. IF YOU ACCIDENTALLY UPDATE YOUR PERSONAL BRANCH, YOU WILL HAVE TO REVERT THE COMMIT. 
